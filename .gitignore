@@ -1,0 +1,38 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Private project documentation
+docs/
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local editor and operating system files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test and coverage output
+coverage/
+.pytest_cache/

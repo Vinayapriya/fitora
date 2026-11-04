@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar'
 import Hero from './components/layout/Hero'
 import FeatureStrip from './components/layout/FeatureStrip'
 import HowItWorks from './components/layout/HowItWorks'
+import RecommendationDemo from './components/layout/RecommendationDemo'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
          <Hero />
          <FeatureStrip />
          <HowItWorks />
+         <RecommendationDemo />
         </section>
 
         <section id="shopper" className="min-h-screen">
